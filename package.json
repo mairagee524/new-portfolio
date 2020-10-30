@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "babel":{
-    "presets" : [
+  "babel": {
+    "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
     ]
   },
   "scripts": {
-    "create": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "webpack"
   },
   "repository": {
     "type": "git",
