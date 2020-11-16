@@ -5,8 +5,10 @@ class Navbar extends Component {
     render() {
         return (
             <nav className='navbar-items'>
-                <h1 className='navbar-logo'>MG</h1>
-                <div className='menu-icon'></div>
+                <h1 className='navbar-logo'><i className="fab fa-react"></i></h1>
+                <div className='menu-icon'>
+
+                </div>
                 <ul>
                     {MenuItem.map((item, index) => {
                         return (
