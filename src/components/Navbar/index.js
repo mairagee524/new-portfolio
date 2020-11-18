@@ -5,7 +5,9 @@ import './style.css'
 class Navbar extends Component {
     state = { clicked: false }
 
-
+    handleClick = () => {
+        this.setState({ clicked: !this.state.clicked })
+    }
 
     render() {
         return (
@@ -14,7 +16,7 @@ class Navbar extends Component {
                 <div className='menu-icon' onCLick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
-                <ul>
+                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItem.map((item, index) => {
                         return (
                             <li key={index}>
