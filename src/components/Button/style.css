@@ -9,3 +9,8 @@
     border: none;
     cursor: pointer;
 }
+
+.btn:hover {
+    padding: 8px 20px;
+    
+}
