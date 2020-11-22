@@ -1,6 +1,8 @@
   
 import React from 'react';
 import Navbar from './components/Navbar';
+import Section from './components/Section';
+
 import './App.css'
 // import Header from "./components/Header";
 // import Portfolio from "./components/Portfolio";
@@ -14,6 +16,7 @@ function App () {
   return (
     <div className="App">
       <Navbar />
+      <Section />
     </div>
   )
 }
