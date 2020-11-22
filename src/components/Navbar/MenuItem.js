@@ -28,10 +28,5 @@ export const MenuItem = [
         title: 'Contact Me',
         url: '#',
         className: 'nav-links'
-    },
-    {
-        title: 'Resume',
-        url: '#',
-        className: 'nav-links-mobile'
-    },
+    }
 ]
