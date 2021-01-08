@@ -1,32 +1,16 @@
-export const MenuItem = [
-    {
-        title: 'Home',
-        url: '#',
-        className: 'nav-links'
-    },
-    {
-        title: 'About Me',
-        url: '#',
-        className: 'nav-links'
-    },
-    {
-        title: 'Skills',
-        url: '#',
-        className: 'nav-links'
-    },
-    {
-        title: 'Portfolio',
-        url: '#',
-        className: 'nav-links'
-    },
-    {
-        title: 'Testimonials',
-        url: '#',
-        className: 'nav-links'
-    },
-    {
-        title: 'Contact Me',
-        url: '#',
-        className: 'nav-links'
+import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+
+class MenuItem extends Component {
+    render() {
+        return (
+            <li id={this.props.item}>
+                <Link to={this.props.tolink} onClick={this.props.activec.bind(this,this.props.item)}>
+                    {this.props.item}
+                </Link>
+            </li>
+        )
     }
-]
+}
+
+export default MenuItem;
