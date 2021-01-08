@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Social from './Social';
-import Map from '../img/map.png';
+import Map from '../img/github.png';
 
 class Contact extends Component {
     render() {

@@ -5,10 +5,10 @@ import './App.css'
 import {BrowserRouter as Router, Route} from "react-router-dom";
 
 import Navbar from './components/Navbar';
-import Home from './contents/Home';
-import About from './contents/About';
-import Portfolio from './contents/Portfolio';
-import Contact from './contents/Contact';
+import Home from './components/Home';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 const GlobalStyle = createGlobalStyle`
   body{
@@ -22,29 +22,31 @@ function App () {
 
   return (
     <ThemeProvider theme={theme}>
-      <>
-    <GlobalStyle />
-    <Router>
-    <div className="App">
-    <Navbar />
-    <Route exact path="/">
-    <Home />
-    </Route>
-    <Route path="/about">
-    <About />
-    </Route>
-    <Route path="/portfolio">
-    <Portfolio />
-    </Route>
-    <Route path="/contact">
-    <Contact />
-    </Route>
-    <div class="back1 glass" onClick={e => setTheme(
-      theme.mode === 'dark' ? {mode: 'light'} : {mode: 'dark'}
-    )}><i class={theme.mode === 'dark' ? "fa fa-sun i1" : "fa fa-moon i1"}></i></div>
-    </div>
-    </Router>
-    </>
+        <>
+      <GlobalStyle />
+      <Router>
+      <div className="App">
+        <Navbar />
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/portfolio">
+          <Portfolio />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <div class="back1 glass" onClick={e => setTheme(
+          theme.mode === 'dark' ? {mode: 'light'} : {mode: 'dark'}
+        )}>
+          <i class={theme.mode === 'dark' ? "fa fa-sun i1" : "fa fa-moon i1"} />
+        </div>
+      </div>
+      </Router>
+      </>
     </ThemeProvider>
   );
 }

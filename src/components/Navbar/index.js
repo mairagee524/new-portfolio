@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import MenuItem from './MenuItem';
-import ProfilePic from '../img/profile_photo.jpg';
+import ProfilePic from '../img/profile-pic.png';
 
 class Navbar extends Component {
     constructor(props) {

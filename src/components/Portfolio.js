@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Project1 from '../img/project1.png';
-import Project2 from '../img/Project2.png';
-import Project3 from '../img/Project3.png';
+import Project1 from '../img/soma-kitchen.png';
+import Project2 from '../img/law-firm.png';
+import Project3 from '../img/weather-dashboard.png';
 
 class Portfolio extends Component {
     render() {
