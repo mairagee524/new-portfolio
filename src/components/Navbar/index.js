@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import MenuItem from './MenuItem';
-
 import ProfilePic from '../img/profile_photo.jpg';
 
 class Navbar extends Component {
@@ -23,7 +22,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="glass">
-                <img src={ProfilePic} className="profile-pic"/>
+                <img src={ProfilePic} className="profile-pic" alt="image of girl inside a circle"/>
                 <h2>Hello World,</h2>
                 <h2>I am Maira <mark>Garcia</mark></h2>
                 <p>Bilingual Full-Stack Developer</p>

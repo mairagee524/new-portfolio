@@ -16,7 +16,7 @@ class About extends Component {
                 </p>
                 <div className="edu">
                     <div class="back1 back2">
-                        <i class="fa fa-book i1 i3"></i>
+                        <i class="fa fa-book i1 i3"/>
                     </div>
                 </div>
                 <h3>Education</h3>
@@ -27,13 +27,13 @@ class About extends Component {
                 <h4>Certificate in Full-Stack Web Development</h4>
                 <p className="p1">UCLA Extension</p>
                 <p className="p1">
-                    <i class="fa fa-calendar i2"></i>
+                    <i class="fa fa-calendar i2"/>
                     March - September 2020
                 </p>
                 <h4>Double B.A. in Chicana/o Studies and Spanish Linguistics</h4>
                 <p className="p1">UCLA</p>
                 <p className="p1">
-                    <i class="fa fa-calendar i2"></i>
+                    <i class="fa fa-calendar i2"/>
                     September 2013 - June 2017
                 </p>
 

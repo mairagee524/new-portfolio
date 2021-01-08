@@ -7,11 +7,11 @@ class Contact extends Component {
         return (
             <div className="condiv contact">
                 <h1 className="subtopic">Contact Me</h1>
-                <div className="hr_line line2 glass">
+                <div className="hr-line line2 glass">
                     <div className="inner2 inner3"/>
                 </div>
-                <div className="con_out glass">
-                    <img src={Map} className="co1"/>
+                <div className="con-out glass">
+                    <img src={Map} className="co1" alt="image of Los Angeles in Google Maps"/>
                 </div>
                 <a href="#">
                     <div className="back3 glass">Download Resume</div>
@@ -19,14 +19,13 @@ class Contact extends Component {
                 <a href="mailto:mairagarcia.codes@gmail.com">
                     <div className="back3 back4 glass">Contact Me</div>
                 </a>
-                <div className="hr_line line3 glass">
+                <div className="hr-line line3 glass">
                     <div className="inner3"/>
                 </div>
                 <Social />
             </div>
-            )
-        }
+        )
     }
+}
     
-    export default Contact
-    
+export default Contact;
