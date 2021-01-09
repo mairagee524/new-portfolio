@@ -66,6 +66,10 @@ nav {
   
 }
 
+.hello-world {
+  font-size: 1.5rem;
+}
+
 .profile-pic {
   border-radius: 50%;
   width: 160px;
@@ -125,14 +129,10 @@ h2 {
   font-size: 2rem;
 }
 
-.about-head {
-  margin: 15px 10px;
-  font-size: 2.3rem;
-}
-
 h3 {
   font-size: 1.4rem;
-  margin: 37px 0 0 90px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 h4 {
@@ -145,17 +145,25 @@ h4 {
   font-size: 1rem;
 }
 
-.sk-head {
-  position: absolute;
-  top: 50%;
-  left: 45%;
+.experience {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.exp-box {
+  display: table-cell;
+}
+
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* grid-template-columns: repeat(3, 100px); */
 }
 
 .sk {
-  position: absolute;
-  top: 65%;
-  left: 58%;
-  display: inline-block;
+  margin-top: 20px;
   width: 90px;
   height: 15px;
   font-weight: bolder;
@@ -163,7 +171,7 @@ h4 {
   text-align: center;
   padding: 10px;
 }
-
+/* 
 .sk:hover {
   background-color: #ffffff80;
 }
@@ -190,7 +198,7 @@ h4 {
 .s6 {
   top: 85%;
   left: 75%;
-}
+} */
 
 mark {
   color: inherit;
@@ -238,7 +246,7 @@ mark {
   width: 10px;
   height: 210px;
   position: absolute;
-  top: 58%;
+  top: 45%;
   left: 6.25%;
 }
 
@@ -250,19 +258,19 @@ mark {
 }
 
 .inn1 {
-  margin-top: 45px;
+  margin-top: 25px;
 }
 
 .inn2 {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .social {
-  width: 50%;
+  width: 30%;
 	height: 14%;
 	position: absolute;
 	bottom: 4%;
-	right: 25%; 
+	/* right: 25%;  */
 	display: flex;
 	justify-content: center;
   align-items: center;
@@ -412,7 +420,7 @@ mark {
 }
 
 .back2 {
-  top: 55%;
+  top: 40%;
   left: 4%;
   z-index: 1;
   background-color: #ffffffbf;
