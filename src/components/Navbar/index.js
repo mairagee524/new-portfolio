@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import MenuItem from './MenuItem';
-import ProfilePic from '../img/profile-pic.png';
+import ProfilePic from '../../img/profile-pic.jpg';
 
 class Navbar extends Component {
     constructor(props) {
@@ -11,10 +11,10 @@ class Navbar extends Component {
     }
 
     activeitem= (x) => {
-        if(this.state.MenuItemActive.length>0){
+        if(this.state.MenuItemActive.length > 0){
             document.getElementById(this.state.MenuItemActive).classList.remove('active');
         }
-        this.setState({'MenuItemActive':x},()=>{
+        this.setState({'MenuItemActive':x}, () => {
             document.getElementById(this.state.MenuItemActive).classList.add('active');
         });
     };
@@ -22,7 +22,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="glass">
-                <img src={ProfilePic} className="profile-pic" alt="image of girl inside a circle"/>
+                <img src={ProfilePic} className="profile-pic" alt="girl inside a circle"/>
                 <h2>Hello World,</h2>
                 <h2>I am Maira <mark>Garcia</mark></h2>
                 <p>Bilingual Full-Stack Developer</p>

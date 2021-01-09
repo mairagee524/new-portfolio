@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Social from './Social';
-import Map from '../img/github.png';
+import Social from '../Social';
+import Map from '../../img/github.png';
 
 class Contact extends Component {
     render() {
@@ -17,7 +17,7 @@ class Contact extends Component {
                     <div className="back3 glass">Download Resume</div>
                 </a>
                 <a href="mailto:mairagarcia.codes@gmail.com">
-                    <div className="back3 back4 glass">Contact Me</div>
+                    <div className="back3 back4 glass">Email Me</div>
                 </a>
                 <div className="hr-line line3 glass">
                     <div className="inner3"/>

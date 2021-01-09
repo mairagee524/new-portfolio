@@ -11,10 +11,9 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 
 const GlobalStyle = createGlobalStyle`
-  body{
-  background: linear-gradient(${props => props.theme.mode === 'dark' ? '#868f96, #596164' : '(#ff758c,#764ba2'});
+  body {
+    background: linear-gradient(${props => props.theme.mode === 'dark' ? '#868f96, #596164' : '(#ff758c,#764ba2'});
   }
-
 `
 
 function App () {
@@ -39,10 +38,10 @@ function App () {
         <Route path="/contact">
           <Contact />
         </Route>
-        <div class="back1 glass" onClick={e => setTheme(
+        <div className="back1 glass" onClick={e => setTheme(
           theme.mode === 'dark' ? {mode: 'light'} : {mode: 'dark'}
         )}>
-          <i class={theme.mode === 'dark' ? "fa fa-sun i1" : "fa fa-moon i1"} />
+          <i className={theme.mode === 'dark' ? "fa fa-sun i1" : "fa fa-moon i1"} />
         </div>
       </div>
       </Router>
