@@ -23,9 +23,8 @@ class Navbar extends Component {
         return (
             <nav className="glass">
                 <img src={ProfilePic} className="profile-pic" alt="girl inside a circle"/>
-                <h2>Hello World,</h2>
-                <h2>I am Maira <mark>Garcia</mark></h2>
-                <p>Bilingual Full-Stack Developer</p>
+                {/* <h2>Maira <mark>Garcia</mark></h2>
+                <p>Bilingual Full-Stack Developer</p> */}
                 <ul>
                     <MenuItem item="Home" tolink="/" activec={this.activeitem}/>
                     <MenuItem item="About" tolink="/about" activec={this.activeitem}/>

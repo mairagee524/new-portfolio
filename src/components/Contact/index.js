@@ -11,10 +11,10 @@ class Contact extends Component {
                     <div className="inner2 inner3"/>
                 </div>
                 <div className="con-out glass">
-                    <img src={Map} className="co1" alt="image of Los Angeles in Google Maps"/>
+                    <img src={Map} alt="Los Angeles in Google Maps"/>
                 </div>
-                <a href="#">
-                    <div className="back3 glass">Download Resume</div>
+                <a href="https://drive.google.com/file/d/1IX2iH7IHw_hOii4QV7ySlXCNawJhzFHo/view?usp=sharing">
+                    <div className="back3 glass">Resume</div>
                 </a>
                 <a href="mailto:mairagarcia.codes@gmail.com">
                     <div className="back3 back4 glass">Email Me</div>
