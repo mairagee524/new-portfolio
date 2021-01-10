@@ -29,7 +29,7 @@ class Navbar extends Component {
                     <MenuItem item="Home" tolink="/" activec={this.activeitem}/>
                     <MenuItem item="About" tolink="/about" activec={this.activeitem}/>
                     <MenuItem item="Portfolio" tolink="/portfolio" activec={this.activeitem}/>
-                    <MenuItem item="Testimonial" tolink="/testimonial" activec={this.activeitem}/>
+                    {/* <MenuItem item="Testimonial" tolink="/testimonial" activec={this.activeitem}/> */}
                     <MenuItem item="Contact" tolink="/contact" activec={this.activeitem}/>
                 </ul>
             </nav>

@@ -321,34 +321,8 @@ mark {
   font-weight: bolder;
 }
 
-.port-out {
-  position: absolute;
-  width: 38%;
-  height: 30%;
-}
-
 .port-out:hover {
   background-color: #ffffff80;
-}
-
-.port1 {
-  top: 18%;
-  left: 10%;
-}
-
-.port2 {
-  top: 18%;
-  left: 53%;
-}
-
-.port3 {
-  top: 58%;
-  left: 10%;
-}
-
-.port4 {
-  top: 58%;
-  left: 53%;
 }
 
 .po1 {
@@ -371,6 +345,127 @@ mark {
   height: 5px;
   border-radius: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  margin-top: 10px;
+  display: grid;
+  /* width: 1200px; */
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.img-port {
+  max-width: 100%;
+}
+
+.container .work__img {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+}
+
+.container .work__img .img-hover {
+  position: relative;
+  overflow: hidden;
+}
+
+.container .work__img:hover .img-hover img {
+  transform: scale(1.2);
+}
+
+.container .work__img .pic-info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0,0,0,.75);
+  transform: scaleY(0);
+  transition: transform .5s;
+}
+
+.container .work__img:hover .pic-info { 
+  transform: scaleY(1); 
+}
+
+.container .work__img .pic-info .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
+
+.container .work__img .pic-info .content h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  color: #EEE2DC;
+}
+
+.container .work__img .pic-info .content p {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.tech-used {
+  font-weight: 600;
+  color: #BAB2B5;
+  
+}
+
+.work__img {
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.work__img img {
+  transition: 1s;
+  cursor: pointer;
+}
+
+.work__img img:hover {
+  transform: scale(1.1);
+}
+
+.footer__icon {
+  font-size: 1.5rem;
+  color: #EEE2DC;
+  margin: 0 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .con-out {
   position: absolute;
@@ -588,6 +683,7 @@ mark {
   .inner2 {
     margin: 15px;
   }
+
   .port-out {
     width: 80%;
     height: 26%;
