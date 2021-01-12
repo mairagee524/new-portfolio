@@ -8,17 +8,19 @@ class About extends Component {
                 <div className="hr-line line2 glass">
                     <div className="inner2"/>
                 </div>
-                <p className="p10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id neque lobortis, maximus turpis vel, gravida erat. Phasellus nec mauris laoreet, sagittis urna quis, semper ligula. Curabitur aliquet sit amet ex eu dictum. Vivamus condimentum nisi in purus aliquet venenatis. Donec et lorem mi. Etiam nec luctus tortor. Pellentesque id sagittis tellus. Aliquam odio libero, maximus et dapibus et, aliquam at nulla. Nam eget interdum nisl, imperdiet ornare sapien. Morbi sed lacus ac magna lobortis elementum. Fusce a ex varius, egestas risus vitae, maximus odio. Fusce iaculis mauris in sem accumsan, at vehicula ipsum fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam quis cursus metus.</p>
+                <p className="p10">As a double Bruin alumna (UCLA'17 & UNEX'20), I find ways to add to my knowledge while benefitting communities. That is why I volunteer as a Lead Front-End developer for a start-up called Prentus. There, my team and I are developing a website that matches recent bootcamp grads (like myself!) to mentors so that they are able to work on a project. My long-term goal is to create a form of technology that would assist underserved communities.</p>
+                <br />
+                <p className="p10">In short, I am always up for a challenge when developing new applications. I enjoy learning something new everyday! It is interesting to see how many things you can create with just a couple lines of code! When I am not coding, I am either bullet journaling, going on nature walks, working out, or living my life at a concert.</p>           
                 <div className="experience">
                     <div className="edu exp-box">
-                        <div className="back1 back2">
+                        {/* <div className="back1 back2">
                             <i className="fa fa-book i1 i3"/>
-                        </div>
+                        </div> */}
                         <h3>Education</h3>
-                        <div className="vr-line glass">
+                        {/* <div className="vr-line glass">
                             <div className="vr-inner inn1"/>
                             <div className="vr-inner inn2"/>
-                        </div>
+                        </div> */}
                         <h4>Certificate in Full-Stack Web Development</h4>
                         <p className="p1">UCLA Extension</p>
                         <p className="p1">

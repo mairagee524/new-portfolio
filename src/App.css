@@ -100,8 +100,8 @@ nav ul {
 }
 
 nav ul li {
-  margin: 5vh;
-  /* padding: 11px; */
+  margin: 5px;
+  padding: 11px;
   border-radius: 10px;
   color: white;
 }
