@@ -77,6 +77,11 @@ nav {
   opacity: 90%;
 }
 
+.logo-pic {
+  margin-top: 10px;
+  width: 100px;
+}
+
 .typingeffect {
   font-size: var(--typing-font);
   margin-bottom: 30px;
@@ -95,8 +100,8 @@ nav ul {
 }
 
 nav ul li {
-  margin:15px;
-  padding: 11px;
+  margin: 5vh;
+  /* padding: 11px; */
   border-radius: 10px;
   color: white;
 }
