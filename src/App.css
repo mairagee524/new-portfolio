@@ -478,6 +478,10 @@ mark {
   background-color: #ffffff80;
 }
 
+.map {
+  max-width: 80%;
+}
+
 .co1 {
   width: 99%;
   height: 99%;

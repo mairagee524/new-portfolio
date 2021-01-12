@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Social from '../Social';
-import Map from '../../img/github.png';
+import Map from '../../img/los-angeles-map.png';
 
 class Contact extends Component {
     render() {
@@ -11,7 +11,7 @@ class Contact extends Component {
                     <div className="inner2 inner3"/>
                 </div>
                 <div className="con-out glass">
-                    <img src={Map} alt="Los Angeles in Google Maps"/>
+                    <img src={Map} className="map" alt="Los Angeles in Google Maps"/>
                 </div>
                 <a href="https://drive.google.com/file/d/1IX2iH7IHw_hOii4QV7ySlXCNawJhzFHo/view?usp=sharing">
                     <div className="back3 glass">Resume</div>
