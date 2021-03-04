@@ -50,6 +50,9 @@ class About extends Component {
                             <div className="sk s6 glass">jQuery</div>
                             <div className="sk s6 glass">Git</div>
                             <div className="sk s6 glass">Heroku</div>
+                            <div className="sk s6 glass">REST API's</div>
+                            <div className="sk s6 glass">AJAX</div>
+                            <div className="sk s6 glass">Bootstrap</div>
                         </div>
                     </div>
                 </div>
